@@ -5,26 +5,42 @@
 .container {
   max-width: 960px;
   width: 100%;
-  margin: 0 auto;
+  margin: 90px auto;
 }
 
-form {
-  margin-top: 90px;
+.form-div {
+  display: grid;
+  grid-template-columns: 48%; 
+}
+
+label {
+  font-weight: bold;
+}
+
+span {
+  font-size: 14px;
+  display: flex;
+  justify-content: end;
 }
 
 p {
-  margin: 4px 0;
+  margin-top: 32px;
 }
 
 .input {
   border-radius: 8px;
-  display: block;
-  margin: 8px 0;
+  margin-bottom: 16px;
   padding: 8px;
   border: 2px solid #111;
 }
 
 table {
-  margin-top: 90px;
+  margin-top: 48px;
   text-align: center;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 8px;
 }
